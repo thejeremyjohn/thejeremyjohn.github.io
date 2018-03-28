@@ -55,6 +55,14 @@
 	<!-- Stylesheets -->
 	<link href="style/css/global.css" type="text/css" rel="stylesheet" media="all">
 
+	<link rel="stylesheet" href="https://cdn.rawgit.com/konpa/devicon/df6431e323547add1b4cf45992913f15286456d3/devicon.min.css">
+	<link rel="stylesheet" href="https://cdn.rawgit.com/konpa/devicon/df6431e323547add1b4cf45992913f15286456d3/devicon.min.css">
+	<link rel="stylesheet" href="https://cdn.rawgit.com/konpa/devicon/df6431e323547add1b4cf45992913f15286456d3/devicon.min.css">
+	<link rel="stylesheet" href="https://cdn.rawgit.com/konpa/devicon/df6431e323547add1b4cf45992913f15286456d3/devicon.min.css">
+	<link rel="stylesheet" href="https://cdn.rawgit.com/konpa/devicon/df6431e323547add1b4cf45992913f15286456d3/devicon.min.css">
+	<!-- in your header -->
+	<link rel="stylesheet" href="https://cdn.rawgit.com/konpa/devicon/df6431e323547add1b4cf45992913f15286456d3/devicon.min.css">
+
 	<!-- Scripts preload -->
 	<!--[if lt IE 9]><script src="style/js/html5shiv.js"></script><![endif]-->
 </head>
@@ -132,19 +140,27 @@
 		<div class="hero__pattern">&nbsp;</div>
 		<div class="hero__content">
 			<div class="hero__content-wrapper">
+			<!-- <div class="hero__content-wrapper" style="height: 1200px"> -->
 				<div class="hero__title-wrapper">
 					<div class="hero__title-large">My name's Jeremy.</div>
-					<div class="hero__title-small">I start projects and finish them eventually!*</div>
+					<!-- <div class="hero__title-small">I start projects and finish them eventually!*</div> -->
+					<div class="hero__title-small" style="font-size:27px">I code up fun and functional web apps that make your life more fun and functional.</div>
 				</div>
-				<div class="hero__photo-wrapper">
-					<div class="hero__photo">
-						<!--<div class="hero__hat">&nbsp;</div>-->
-						<img class="hero__photo" src="style/img/20171007_182540.jpg" alt="">
+
+				<!-- <div style="display:flex; flex-direction:row;"> -->
+
+					<div class="hero__photo-wrapper" style="display:flex; flex-direction:row; bottom:30px;">
+						<div class="hero__description" style="padding: 0 40px 0 0; text-align:left; font-weight:500">
+							After an unplanned 5-year stint as the defacto "guy who knows computers" in the office, I decided to leave my comfy job and attend a code bootcamp where I could learn to be a web developer... for real... from professionals. A few months later and I am myself a professional developer, but currently one that is looking for new projects. Scroll on won't you?
+						</div>
+						<div class="hero__photo">
+							<!--<div class="hero__hat">&nbsp;</div>-->
+							<img class="hero__photo" src="style/img/20171007_182540.jpg" alt="">
+						</div>
 					</div>
-				</div>
-				<div class="hero__description">
-					*...hopefully. Here's an interesting sentence or two about me.
-				</div>
+
+				<!-- </div> -->
+
 			</div>
 		</div>
 	</section>
@@ -184,36 +200,74 @@
 		<!-- "Experience" Section -->
 		<section id="experience" class="experience">
 			<div class="experience__hollow-arrow">&nbsp;</div>
+
+			<!-- <div class="hero__content-wrapper">
+				<div class="hero__description" style="text-align:left; border-bottom: 2px solid rgb(255,255,255,0.1); padding-bottom:4px margin-bottom:30px">
+					After an impromptu 5-year stint as a civil servant and the defacto "computer guy" of my office, I decided to leave my comfy job and attend a code bootcamp where I could learn to be a web developer... for real... from professionals. A few months later and I am myself a professional developer, but currently one that is looking for new projects. I encourage you to scroll on, take a look the work I've done so far, and if anything catches your eye, please, let's talk about it and what services I can offer you.
+				</div>
+			</div> -->
+
+
 			<div class="experience__wrapper">
 				<div class="section-header">
 					<div class="section-header__title  section-header__title--experience">My Skills...</div>
-					<div class="section-header__subtitle">Software and technologies that I'm experienced in</div>
+					<div class="section-header__subtitle">Software and technologies that I have a firm grasp of</div>
 				</div>
 				<div class="experience__icons-wrapper">
+					<div class="experience__icon" style="display:flex">
+						<i class="devicon-ruby-plain devicon"></i>
+						<div class="experience__icon-description">Ruby</div>
+					</div>
+					<div class="experience__icon" style="display:flex">
+						<i class="devicon-rails-plain devicon"></i>
+						<div class="experience__icon-description">Ruby on Rails</div>
+					</div>
+					<div class="experience__icon" style="display:flex">
+						<i class="devicon-python-plain devicon"></i>
+						<div class="experience__icon-description">Python</div>
+					</div>
+					<div class="experience__icon  experience__icon--javascript">
+						<div class="experience__icon-description">JavaScript</div>
+					</div>
+					<div class="experience__icon  experience__icon--jquery">
+						<div class="experience__icon-description">jQuery</div>
+					</div>
 					<div class="experience__icon  experience__icon--html5">
 						<div class="experience__icon-description">HTML5</div>
 					</div>
 					<div class="experience__icon  experience__icon--css3">
 						<div class="experience__icon-description">CSS3</div>
 					</div>
-					<div class="experience__icon  experience__icon--javascript">
-						<div class="experience__icon-description">JavaScript</div>
-					</div>
 					<div class="experience__icon  experience__icon--sass">
 						<div class="experience__icon-description">SASS</div>
 					</div>
-					<div class="experience__icon  experience__icon--jquery">
-						<div class="experience__icon-description">jQuery</div>
+					<div class="experience__icon" style="display:flex">
+						<i class="devicon-react-original devicon"></i>
+						<div class="experience__icon-description">React.js</div>
 					</div>
+					<div class="experience__icon" style="display:flex">
+						<i class="devicon-postgresql-plain devicon"></i>
+						<div class="experience__icon-description">PostgreSQL</div>
+					</div>
+
+					<div class="experience__icon">
+					</div>
+
 					<div class="experience__icon  experience__icon--git">
 						<div class="experience__icon-description">GIT</div>
 					</div>
-					<!-- <div class="experience__icon  experience__icon--wordpress">
-						<div class="experience__icon-description">WordPress</div>
-					</div> -->
+					<div class="experience__icon" style="display:flex">
+						<i class="devicon-heroku-original devicon"></i>
+						<div class="experience__icon-description">Heroku</div>
+					</div>
 					<div class="experience__icon  experience__icon--photoshop">
 						<div class="experience__icon-description">Adobe Photoshop</div>
 					</div>
+
+
+					<!-- <div class="experience__icon  experience__icon--wordpress">
+						<div class="experience__icon-description">WordPress</div>
+					</div> -->
 					<!-- <div class="experience__icon  experience__icon--illustrator">
 						<div class="experience__icon-description">Adobe Illustrator</div>
 					</div> -->
@@ -352,7 +406,7 @@
 
 				<div class="section-header">
 					<div class="section-header__title  section-header__title--realizations">Portfolio...</div>
-					<div class="section-header__subtitle">Selected projects I've worked on</div>
+					<div class="section-header__subtitle">Some of my recent work</div>
 				</div>
 
 				<div class="showcase">
@@ -360,10 +414,10 @@
 
 						<!-- normal -->
 						<img data-project="p1" class="showcase__thumb  showcase__thumb--first  showcase__thumb--active" src="style/img/traffic_controller_icon.png">
-						<img data-project="p2" class="showcase__thumb" src="content/project_placeholder_thumb.jpg">
-						<img data-project="p3" class="showcase__thumb" src="content/project_placeholder_thumb.jpg">
-						<img data-project="p4" class="showcase__thumb" src="content/project_placeholder_thumb.jpg">
-						<img data-project="p5" class="showcase__thumb" src="content/project_placeholder_thumb.jpg">
+						<!-- <img data-project="p2" class="showcase__thumb" src="content/project_placeholder_thumb.jpg"> -->
+						<!-- <img data-project="p3" class="showcase__thumb" src="content/project_placeholder_thumb.jpg"> -->
+						<!-- <img data-project="p4" class="showcase__thumb" src="content/project_placeholder_thumb.jpg"> -->
+						<!-- <img data-project="p5" class="showcase__thumb" src="content/project_placeholder_thumb.jpg"> -->
 
 						<!-- blank template
 						<div data-project="p5" class="showcase__thumb  showcase__thumb--blank">&nbsp;</div>
@@ -407,9 +461,9 @@
 									</div>
 								</div> -->
 								<div class="showcase__point">
-									<div class="showcase__point-title">Technologies Used</div>
+									<div class="showcase__point-title">Languages</div>
 									<div class="showcase__point-description">
-										HTML5, CSS3, JavaScript.
+										JavaScript, HTML5, CSS3
 									</div>
 								</div>
 
@@ -431,7 +485,7 @@
 						</div>
 
 						<!-- project 2 -->
-						<div data-project="p2" class="showcase__stage">
+						<!-- <div data-project="p2" class="showcase__stage">
 							<div class="showcase__slider">
 								<ul class="rslides">
 
@@ -488,10 +542,10 @@
 								</div>
 								<a target="_blank" href="//example.com" class="showcase__button  ghost-button  ghost-button--realizations">Visit Website</a>
 							</div>
-						</div>
+						</div> -->
 
 						<!-- project 3 -->
-						<div data-project="p3" class="showcase__stage">
+						<!-- <div data-project="p3" class="showcase__stage">
 							<div class="showcase__slider">
 								<ul class="rslides">
 									<li><img src="content/project_placeholder_slide.jpg"></li>
@@ -524,10 +578,10 @@
 								</div>
 								<a target="_blank" href="//example.com" class="showcase__button  ghost-button  ghost-button--realizations">Visit Website</a>
 							</div>
-						</div>
+						</div> -->
 
 						<!-- project 4 -->
-						<div data-project="p4" class="showcase__stage">
+						<!-- <div data-project="p4" class="showcase__stage">
 							<div class="showcase__slider">
 								<ul class="rslides">
 									<li><img src="content/project_placeholder_slide.jpg"></li>
@@ -563,10 +617,10 @@
 								</div>
 								<a target="_blank" href="//example.com" class="showcase__button  ghost-button  ghost-button--realizations">Visit Website</a>
 							</div>
-						</div>
+						</div> -->
 
 						<!-- project 5 -->
-						<div data-project="p5" class="showcase__stage">
+						<!-- <div data-project="p5" class="showcase__stage">
 							<div class="showcase__slider">
 								<ul class="rslides">
 									<li><img src="content/project_placeholder_slide.jpg"></li>
@@ -602,7 +656,7 @@
 								</div>
 								<a target="_blank" href="//example.com" class="showcase__button  ghost-button  ghost-button--realizations">Visit Website</a>
 							</div>
-						</div>
+						</div> -->
 
 
 					</div>
