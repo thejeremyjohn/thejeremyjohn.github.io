@@ -1021,8 +1021,8 @@ p, h1, h2, h3, h4, h5, h6, ul, li {
   width: 20%;
   height: 120px;
   /* background-image: url("../img/exp_html5.svg"); */
-  /* background-size: 100px 100px; */
-  /* background-position: 50%; */
+  background-size: 100px 100px;
+  background-position: 50%;
 }
 
 .experience__icon--html5 {
