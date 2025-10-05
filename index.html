@@ -80,9 +80,8 @@
 				<div class="hero__title-wrapper">
 					<div class="hero__title-large">Hello, I'm Jeremy.</div>
 					<div class="hero__title-small" style="font-size:27px">
-						Can you imagine software that makes its user's life easier, happier,
-						<br>and avoids doing harm to their mental health and to our society?
-						<br>We both might be delusional, but I want to help you build that software.
+						If you can imagine software that improves health and happiness,
+						<br>I want to help you build it.
 					</div>
 
 					<div class="hero__photo-wrapper" style="display:flex; flex-direction:row; align-items:center;">
@@ -93,9 +92,10 @@
 							development, I consider myself a Backend Developer first.
 							<br>
 							<br>
-							Please check out my Wellread project as its full stack mimics much of what I have built,
-							refined, and deployed to production environments for actual SaaS products (save for the
-							backend & db being deployed to a single low-cost EC2 instance, like a prototype)
+							Please check out my
+							<a href="#realizations" class="js-smooth-scroll">Wellread</a>
+							project as its full stack mimics much of what I have built,
+							refined, and deployed to production environments for actual SaaS products.
 						</div>
 						<div class="hero__photo">
 							<img class="hero__photo" src="style/img/20171007_182540.jpg" alt="">
@@ -137,35 +137,11 @@
 						<div class="experience__icon-description">PostgreSQL</div>
 					</div>
 					<div class="experience__icon" style="display:flex">
-						<i class="devicon-insomnia-plain devicon"></i>
-						<div class="experience__icon-description">Insomnia</div>
-					</div>
-					<div class="experience__icon  experience__icon--git">
-						<div class="experience__icon-description">GIT</div>
-					</div>
-					<div class="experience__icon" style="display:flex">
 						<i class="devicon-amazonwebservices-plain-wordmark devicon"></i>
 						<div class="experience__icon-description">AWS</div>
 					</div>
-					<div class="experience__icon" style="display:flex">
-						<i class="devicon-socketio-original devicon"></i>
-						<div class="experience__icon-description">SocketIO</div>
-					</div>
-					<div class="experience__icon" style="display:flex">
-						<i class="devicon-redis-plain devicon"></i>
-						<div class="experience__icon-description">Redis</div>
-					</div>
-					<div class="experience__icon" style="display:flex">
-						<i class="devicon-linux-plain devicon"></i>
-						<div class="experience__icon-description">Linux</div>
-					</div>
-					<!-- <div class="experience__icon" style="display:flex">
-						<i class="devicon-ubuntu-plain devicon"></i>
-						<div class="experience__icon-description">Ubuntu</div>
-					</div> -->
-					<div class="experience__icon" style="display:flex">
-						<i class="devicon-debian-plain devicon"></i>
-						<div class="experience__icon-description">Debian</div>
+					<div class="experience__icon  experience__icon--git">
+						<div class="experience__icon-description">GIT</div>
 					</div>
 					<div class="experience__icon" style="display:flex">
 						<i class="devicon-dart-plain devicon"></i>
@@ -174,6 +150,18 @@
 					<div class="experience__icon" style="display:flex">
 						<i class="devicon-flutter-plain devicon"></i>
 						<div class="experience__icon-description">Flutter</div>
+					</div>
+					<div class="experience__icon" style="display:flex">
+						<i class="devicon-insomnia-plain devicon"></i>
+						<div class="experience__icon-description">Insomnia</div>
+					</div>
+					<div class="experience__icon" style="display:flex">
+						<i class="devicon-socketio-original devicon"></i>
+						<div class="experience__icon-description">SocketIO</div>
+					</div>
+					<div class="experience__icon" style="display:flex">
+						<i class="devicon-redis-plain devicon"></i>
+						<div class="experience__icon-description">Redis</div>
 					</div>
 					<div class="experience__icon" style="display:flex">
 						<i class="devicon-jira-plain devicon"></i>
@@ -192,6 +180,18 @@
 					<div class="experience__icon" style="display:flex">
 						<i class="devicon-javascript-plain devicon"></i>
 						<div class="experience__icon-description">JavaScript</div>
+					</div>
+					<div class="experience__icon" style="display:flex">
+						<i class="devicon-linux-plain devicon"></i>
+						<div class="experience__icon-description">Linux</div>
+					</div>
+					<!-- <div class="experience__icon" style="display:flex">
+						<i class="devicon-ubuntu-plain devicon"></i>
+						<div class="experience__icon-description">Ubuntu</div>
+					</div> -->
+					<div class="experience__icon" style="display:flex">
+						<i class="devicon-debian-plain devicon"></i>
+						<div class="experience__icon-description">Debian</div>
 					</div>
 					<div class="experience__icon" style="display:flex">
 						<i class="devicon-docker-plain devicon"></i>
@@ -267,7 +267,7 @@
 					<div class="showcase__stage-wrapper">
 
 						<!-- project 1 -->
-						<div data-project="p1" class="showcase__stage  showcase__stage--active">
+						<div id="wellread" data-project="p1" class="showcase__stage  showcase__stage--active">
 							<div class="showcase__slider">
 								<ul class="rslides">
 									<li>
@@ -300,10 +300,10 @@
 								<div class="showcase__point">
 									<div class="showcase__point-title">General Details</div>
 									<div class="showcase__point-description">
-										Inspired by Goodreads, Wellread allows users to signup via email or login as a
-										guest, add/remove bookshelves and their book members, browse other
-										users' shelves, rate and review books, manage their profile. (CRUD operations
-										across the board.)
+										Login as a guest or signup via email. Users familiar with Goodreads
+										will recognize its core functionality emulated here. The pre-populated
+										data is fake, but the C.R.U.D. interactions are real. Please poke around and
+										leave a review.
 									</div>
 								</div>
 								<div class="showcase__point">
