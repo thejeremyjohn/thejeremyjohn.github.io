@@ -9,14 +9,6 @@
 
 	<!-- Site informations -->
 	<title>Jeremy John's Portfolio</title>
-	<!-- <meta name="author" content="Dominik Serafin">
-	<meta name="description" content="Free HTML5 Template created by Dominik Serafin."> -->
-
-	<!-- Open Graph -->
-	<meta property="og:title" content="Free Aurora Template">
-	<meta property="og:description" content="Free HTML5 Template created by Dominik Serafin.">
-	<meta property="og:url" content="http://serafin.io/aurora-template/">
-	<meta property="og:image" content="http://serafin.io/aurora-template/content/og_image.png">
 
 	<!-- Fonts -->
 	<link href="style/fonts/webfont-raleway/webfont-raleway.css" rel="stylesheet" type="text/css">
@@ -252,7 +244,7 @@
 
 				<div class="section-header">
 					<div class="section-header__title  section-header__title--realizations">Portfolio...</div>
-					<div class="section-header__subtitle">Projects (one new, one old)</div>
+					<div class="section-header__subtitle">Projects, new & old</div>
 				</div>
 
 				<div class="showcase">
@@ -261,7 +253,8 @@
 						<!-- normal -->
 						<img data-project="p1" class="showcase__thumb  showcase__thumb--first  showcase__thumb--active"
 							src="style/img/wellread_logo.png">
-						<img data-project="p2" class="showcase__thumb" src="style/img/traffic_controller_icon.png">
+						<img data-project="p2" class="showcase__thumb" src="style/img/xrp_docs_insomnia_logo.png">
+						<img data-project="p3" class="showcase__thumb" src="style/img/traffic_controller_icon.png">
 					</div>
 
 					<div class="showcase__stage-wrapper">
@@ -337,6 +330,48 @@
 							<div class="showcase__slider">
 								<ul class="rslides">
 									<li>
+										<a href="https://xrplatform.io/docs">
+											<img src="style/img/xrp_docs_insomnia_page.png">
+										</a>
+									</li>
+								</ul>
+							</div>
+							<div class="showcase__infos-wrapper">
+								<div class="showcase__title">
+									XRPlatform docs
+									<div class="showcase__title-description">via insomnia-documenter
+									</div>
+								</div>
+								<div class="showcase__point">
+									<div class="showcase__point-title">Languages</div>
+									<div class="showcase__point-description">
+										Insomnia, HTML5, JavaScript
+									</div>
+								</div>
+								<div class="showcase__point">
+									<div class="showcase__point-title">Details</div>
+									<div class="showcase__point-description">
+										Documentation of the XRPlatform backend which I built out during my time
+										at The Glimpse Group. In addition to the typical C.R.U.D., this Flask API
+										includes endpoints to generate presigned urls used to upload arbitrarily
+										large files directly to S3, get HLS streams to audio/video assets, billing
+										management via Stripe, API restrictions based on user's role permissions, team
+										management, enable or trigger push notifications, and to schedule events via
+										integration with cron. It was used by other subsidiaries of Glimpse and so a lot
+										of legacy endpoints had to stay put, and in these docs, were tucked away in
+										folders labeled 'deprecated'.
+									</div>
+								</div>
+								<a target="_blank" href="https://xrplatform.io/docs"
+									class="showcase__button  ghost-button  ghost-button--realizations">Live Site</a>
+							</div>
+						</div>
+
+						<!-- project 3 -->
+						<div data-project="p3" class="showcase__stage">
+							<div class="showcase__slider">
+								<ul class="rslides">
+									<li>
 										<a href="https://thejeremyjohn.github.io/pathfinder/">
 											<img src="style/img/pathfinder_gameplay.gif">
 										</a>
@@ -379,7 +414,6 @@
 			<div class="contact__wrapper">
 				<div class="section-header">
 					<div class="section-header__title  section-header__title--contact">Contact...</div>
-					<!-- <div class="section-header__subtitle">Contact me through provided social media or just use the contact form</div> -->
 				</div>
 
 				<div class="contact__icons-wrapper">
