@@ -8,7 +8,7 @@
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 
 	<!-- Site informations -->
-	<title>Jeremy John's Portfolio</title>
+	<title>Jeremy John's Interactive CV</title>
 
 	<!-- Fonts -->
 	<link href="style/fonts/webfont-raleway/webfont-raleway.css" rel="stylesheet" type="text/css">
@@ -253,8 +253,9 @@
 						<!-- normal -->
 						<img data-project="p1" class="showcase__thumb  showcase__thumb--first  showcase__thumb--active"
 							src="style/img/wellread_logo.png">
-						<img data-project="p2" class="showcase__thumb" src="style/img/xrp_docs_insomnia_logo.png">
-						<img data-project="p3" class="showcase__thumb" src="style/img/traffic_controller_icon.png">
+						<img data-project="p2" class="showcase__thumb" src="style/img/yt2epub_logo.png">
+						<img data-project="p3" class="showcase__thumb" src="style/img/xrp_docs_insomnia_logo.png">
+						<img data-project="p4" class="showcase__thumb" src="style/img/traffic_controller_icon.png">
 					</div>
 
 					<div class="showcase__stage-wrapper">
@@ -263,6 +264,11 @@
 						<div id="wellread" data-project="p1" class="showcase__stage  showcase__stage--active">
 							<div class="showcase__slider">
 								<ul class="rslides">
+									<li>
+										<a href="https://wellread.jeremyjohn.me">
+											<img src="style/img/wellread_vid.gif">
+										</a>
+									</li>
 									<li>
 										<a href="https://wellread.jeremyjohn.me">
 											<img src="style/img/wellread_page1.png">
@@ -291,28 +297,29 @@
 								</ul>
 							</div>
 							<div class="showcase__infos-wrapper">
-								<div class="showcase__title">Wellread</div>
+								<div class="showcase__title">Wellread
+									<div class="showcase__title-description">goodreads.com clone
+									</div>
+								</div>
 								<div class="showcase__point">
 									<div class="showcase__point-title">Toolset</div>
 									<div class="showcase__point-description">
 										Python Flask backend with SqlAlchemy PostgreSQL database, served via AWS EC2.
-										<br>
 										Flutter GoRouter frontend, hosted via AWS S3 and Cloudfront.
 									</div>
 								</div>
 								<div class="showcase__point">
-									<div class="showcase__point-title">General Details</div>
+									<div class="showcase__point-title">Details</div>
 									<div class="showcase__point-description">
-										Login as a guest or signup via email. Users familiar with Goodreads
-										will recognize its core functionality emulated here. The pre-populated
+										Login as a guest or signup via email. The pre-populated
 										data is fake, but the C.R.U.D. interactions are real. Please poke around and
 										leave a review.
 									</div>
 								</div>
 								<div class="showcase__point">
-									<div class="showcase__point-title">*** TODO ***</div>
+									<div class="showcase__point-title">Todo</div>
 									<div class="showcase__point-description">
-										Backend docs coming soon.
+										Backend docs.
 									</div>
 								</div>
 								<div class="showcase__point">
@@ -330,10 +337,55 @@
 							<div class="showcase__slider">
 								<ul class="rslides">
 									<li>
+										<a href="https://yt2epub.jeremyjohn.me">
+											<img src="style/img/yt2epub_vid.gif">
+										</a>
+									</li>
+								</ul>
+							</div>
+							<div class="showcase__infos-wrapper">
+								<div class="showcase__title">
+									yt2epub
+									<div class="showcase__title-description">web utility
+									</div>
+								</div>
+								<div class="showcase__point">
+									<div class="showcase__point-title">Toolset</div>
+									<div class="showcase__point-description">
+										Python, HTML5 via Flask render_template
+									</div>
+								</div>
+								<div class="showcase__point">
+									<div class="showcase__point-title">Details</div>
+									<div class="showcase__point-description">
+										This web-based utility takes in a YouTube video link and writes the transcript
+										of the video to an epub file to download. Handy if you binge-watch too much and
+										would feel better about binge-reading the same content.
+										<br>
+										Hosted on the same EC2 server as the Wellread backend.
+									</div>
+								</div>
+								<a target="_blank" href="https://yt2epub.jeremyjohn.me"
+									class="showcase__button  ghost-button  ghost-button--realizations">Live Site</a>
+								<a target="_blank" href="https://github.com/thejeremyjohn/ytvideo_to_epub"
+									class="showcase__button  ghost-button  ghost-button--realizations">Github Repo</a>
+							</div>
+						</div>
+
+						<!-- project 3 -->
+						<div data-project="p3" class="showcase__stage">
+							<div class="showcase__slider">
+								<ul class="rslides">
+									<li>
+										<a href="https://xrplatform.io/docs">
+											<img src="style/img/xrp_docs_insomnia_vid.gif">
+										</a>
+									</li>
+									<!-- <li>
 										<a href="https://xrplatform.io/docs">
 											<img src="style/img/xrp_docs_insomnia_page.png">
 										</a>
-									</li>
+									</li> -->
 								</ul>
 							</div>
 							<div class="showcase__infos-wrapper">
@@ -343,7 +395,7 @@
 									</div>
 								</div>
 								<div class="showcase__point">
-									<div class="showcase__point-title">Languages</div>
+									<div class="showcase__point-title">Toolset</div>
 									<div class="showcase__point-description">
 										Insomnia, HTML5, JavaScript
 									</div>
@@ -367,8 +419,8 @@
 							</div>
 						</div>
 
-						<!-- project 3 -->
-						<div data-project="p3" class="showcase__stage">
+						<!-- project 4 -->
+						<div data-project="p4" class="showcase__stage">
 							<div class="showcase__slider">
 								<ul class="rslides">
 									<li>
@@ -384,7 +436,7 @@
 									<div class="showcase__title-description">JS browser game</div>
 								</div>
 								<div class="showcase__point">
-									<div class="showcase__point-title">Languages</div>
+									<div class="showcase__point-title">Toolset</div>
 									<div class="showcase__point-description">
 										JavaScript, HTML5, CSS3
 									</div>
