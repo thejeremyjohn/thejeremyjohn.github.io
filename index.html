@@ -294,6 +294,11 @@
 											<img src="style/img/wellread_page5.png">
 										</a>
 									</li>
+									<li>
+										<a href="https://wellread.jeremyjohn.me">
+											<img src="style/img/wellread_erd.png">
+										</a>
+									</li>
 								</ul>
 							</div>
 							<div class="showcase__infos-wrapper">
@@ -320,6 +325,9 @@
 									<div class="showcase__point-title">Todo</div>
 									<div class="showcase__point-description">
 										Backend docs.
+										<br>
+										See <a href="https://xrplatform.io/docs"><u>XRP docs</u></a> for a
+										macro-example.
 									</div>
 								</div>
 								<div class="showcase__point">
@@ -328,6 +336,9 @@
 									<a target="_blank" href="https://github.com/thejeremyjohn/wellread2"
 										class="showcase__button  ghost-button  ghost-button--realizations">Github
 										Repo</a>
+									<a target="_blank" href="style/img/wellread_erd.png"
+										class="showcase__button  ghost-button  ghost-button--realizations">Database
+										ERD</a>
 								</div>
 							</div>
 						</div>
@@ -352,7 +363,7 @@
 								<div class="showcase__point">
 									<div class="showcase__point-title">Toolset</div>
 									<div class="showcase__point-description">
-										Python, HTML5 via Flask render_template
+										Python, Flask, HTML5
 									</div>
 								</div>
 								<div class="showcase__point">
@@ -381,41 +392,44 @@
 											<img src="style/img/xrp_docs_insomnia_vid.gif">
 										</a>
 									</li>
-									<!-- <li>
-										<a href="https://xrplatform.io/docs">
-											<img src="style/img/xrp_docs_insomnia_page.png">
+									<li>
+										<a href="style/img/xrp_diagram_20220124_light.drawio.png">
+											<img src="style/img/xrp_diagram_20220124_light.drawio.png">
 										</a>
-									</li> -->
+									</li>
 								</ul>
 							</div>
 							<div class="showcase__infos-wrapper">
 								<div class="showcase__title">
 									XRPlatform docs
-									<div class="showcase__title-description">via insomnia-documenter
+									<div class="showcase__title-description">backend docs + cloud diagram
 									</div>
 								</div>
 								<div class="showcase__point">
 									<div class="showcase__point-title">Toolset</div>
 									<div class="showcase__point-description">
-										Insomnia, HTML5, JavaScript
+										Insomnia, insomnia-documenter, HTML5, JavaScript, Draw.io
 									</div>
 								</div>
 								<div class="showcase__point">
 									<div class="showcase__point-title">Details</div>
 									<div class="showcase__point-description">
-										Documentation of the XRPlatform backend which I built out during my time
-										at The Glimpse Group. In addition to the typical C.R.U.D., this Flask API
-										includes endpoints to generate presigned urls used to upload arbitrarily
-										large files directly to S3, get HLS streams to audio/video assets, billing
-										management via Stripe, API restrictions based on user's role permissions, team
-										management, enable or trigger push notifications, and to schedule events via
-										integration with cron. It was used by other subsidiaries of Glimpse and so a lot
-										of legacy endpoints had to stay put, and in these docs, were tucked away in
-										folders labeled 'deprecated'.
+										Documentation of the XRPlatform backend and cloud infrastructure which I built
+										out during my time at The Glimpse Group. In addition to the typical C.R.U.D.,
+										the Flask API includes endpoints to generate presigned urls for uploading
+										arbitrarily large files directly to S3, to process uploaded files in the cloud
+										via AWS (EventBridge, Step Functions, etc), to get HLS streams to audio/video
+										assets, billing management via Stripe, API restrictions based on user's role
+										permissions, team management, to enable or trigger push notifications, and to
+										schedule events via integration with cron. It was used by other subsidiaries of
+										Glimpse and so a lot of legacy endpoints had to stay put, and in these Insomnia
+										docs, were tucked away in folders marked 'deprecated'.
 									</div>
 								</div>
 								<a target="_blank" href="https://xrplatform.io/docs"
-									class="showcase__button  ghost-button  ghost-button--realizations">Live Site</a>
+									class="showcase__button  ghost-button  ghost-button--realizations">API docs</a>
+								<a target="_blank" href="style/img/xrp_diagram_20220124_light.drawio.png"
+									class="showcase__button  ghost-button  ghost-button--realizations">Cloud diagram</a>
 							</div>
 						</div>
 
